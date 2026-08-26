@@ -3,178 +3,1118 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Art Uiii | Personalizados com significado</title>
-  <meta name="description" content="Art Uiii — azulejos, canecas e presentes personalizados com significado.">
+
+  <title>Art Uiii Personalizados | Presentes que contam histórias</title>
+
+  <meta name="description" content="Art Uiii Personalizados — azulejos, canecas e presentes personalizados para transformar momentos em lembranças.">
+
   <style>
-    *{box-sizing:border-box;margin:0;padding:0}
-    html{scroll-behavior:smooth}
-    body{font-family:Arial,Helvetica,sans-serif;color:#172033;background:#F7F9FC;line-height:1.5}
-    a{text-decoration:none;color:inherit}
-    header{background:#fff;position:sticky;top:0;z-index:10;box-shadow:0 2px 14px #00000012}
-    .nav{max-width:1150px;margin:auto;padding:16px 22px;display:flex;align-items:center;justify-content:space-between;gap:20px}
-    .logo{font-size:30px;font-weight:900;letter-spacing:3px;color:#174A9C}
-    .logo span{font-size:12px;display:block;letter-spacing:1.5px;color:#174A9C;font-weight:600}
-    nav{display:flex;gap:20px;font-size:14px;font-weight:700}
-    nav a:hover{color:#174A9C}
-    .hero{background:linear-gradient(135deg,#174A9C,#174A9C);color:white}
-    .hero-inner{max-width:1150px;margin:auto;padding:75px 22px 70px;display:grid;grid-template-columns:1.1fr .9fr;gap:45px;align-items:center}
-    .hero h1{font-size:clamp(38px,6vw,68px);line-height:1.02;margin-bottom:18px}
-    .hero h1 span{color:#dcecff}
-    .hero p{font-size:19px;max-width:600px;color:#eef5ff;margin-bottom:28px}
-    .btn{display:inline-block;padding:14px 22px;border-radius:30px;background:white;color:#174A9C;font-weight:800}
-    .btn.dark{background:#174A9C;color:#fff}
-    .hero-card{background:#ffffff18;border:1px solid #ffffff38;border-radius:24px;padding:22px;backdrop-filter:blur(5px)}
-    .hero-card h3{font-size:23px;margin-bottom:8px}
-    .hero-card p{font-size:15px;margin:0}
-    section{max-width:1150px;margin:auto;padding:70px 22px}
-    .section-title{text-align:center;margin-bottom:38px}
-    .section-title h2{font-size:36px;color:#174A9C}
-    .section-title p{color:#667085;margin-top:8px}
-    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
-    .card{background:white;border-radius:18px;overflow:hidden;box-shadow:0 8px 28px rgba(11,45,99,.07);border:1px solid #E4EAF2;display:flex;flex-direction:column}
-    .card img{width:100%;aspect-ratio:1/1;object-fit:cover;display:block}
-    .card-body{padding:20px;display:flex;flex-direction:column;gap:10px;flex:1}
-    .tag{font-size:11px;font-weight:800;letter-spacing:1px;text-transform:uppercase;color:#174A9C}
-    .card h3{font-size:22px}
-    .card p{color:#667085;font-size:14px;flex:1}
-    .sizes{font-size:13px;font-weight:700;color:#333}
-    .about{background:#EAF2FF}
-    .about-inner{max-width:900px;margin:auto;text-align:center}
-    .about-inner p{font-size:18px;color:#475467}
-    .cta{text-align:center;background:#fff}
-    .cta-box{background:#174A9C;color:#fff;border-radius:26px;padding:45px 25px}
-    .cta-box h2{font-size:34px;margin-bottom:10px}
-    .cta-box p{margin-bottom:25px;color:#e6eef8}
-    footer{background:#081C3D;color:#cbd2df;text-align:center;padding:30px 20px;font-size:13px}
-    footer strong{color:white}
-    @media(max-width:800px){
-      nav{display:none}
-      .hero-inner{grid-template-columns:1fr;padding-top:55px}
-      .grid{grid-template-columns:1fr 1fr}
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
     }
-    @media(max-width:540px){
-      .grid{grid-template-columns:1fr}
-      section{padding:55px 16px}
-      .hero-inner{padding-left:16px;padding-right:16px}
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f8f4ec;
+      color: #171717;
+      line-height: 1.6;
+    }
+
+    :root {
+      --preto: #171717;
+      --preto-2: #242424;
+      --dourado: #b88620;
+      --dourado-claro: #d4aa55;
+      --creme: #f8f4ec;
+      --creme-2: #eee5d5;
+      --branco: #ffffff;
+    }
+
+    /* TOPO */
+    .topo {
+      background: var(--preto);
+      color: white;
+      text-align: center;
+      padding: 9px 15px;
+      font-size: 12px;
+      letter-spacing: 1.4px;
+      font-weight: bold;
+    }
+
+    /* MENU */
+    header {
+      background: rgba(248, 244, 236, 0.97);
+      border-bottom: 1px solid #ded3c1;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .menu {
+      max-width: 1180px;
+      margin: auto;
+      padding: 17px 25px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 30px;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      color: var(--preto);
+    }
+
+    .logo-circulo {
+      width: 48px;
+      height: 48px;
+      border: 2px solid var(--preto);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .logo-texto {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .logo-nome {
+      font-family: Georgia, serif;
+      font-size: 29px;
+      font-style: italic;
+      line-height: 1;
+    }
+
+    .logo-sub {
+      font-size: 9px;
+      letter-spacing: 3px;
+      margin-top: 5px;
+      font-weight: bold;
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: var(--preto);
+      font-size: 13px;
+      font-weight: bold;
+      letter-spacing: .5px;
+    }
+
+    nav a:hover {
+      color: var(--dourado);
+    }
+
+    .botao-whatsapp {
+      background: var(--dourado);
+      color: white !important;
+      padding: 13px 23px;
+      border-radius: 30px;
+      transition: .2s;
+    }
+
+    .botao-whatsapp:hover {
+      background: #986f17;
+      transform: translateY(-2px);
+    }
+
+    /* HERO */
+    .hero {
+      min-height: 650px;
+      position: relative;
+      overflow: hidden;
+      background:
+        radial-gradient(circle at 85% 30%, rgba(184,134,32,.14), transparent 30%),
+        var(--creme);
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      width: 420px;
+      height: 420px;
+      border: 1px solid rgba(184,134,32,.35);
+      border-radius: 50%;
+      right: -180px;
+      top: -100px;
+    }
+
+    .hero-conteudo {
+      max-width: 1180px;
+      margin: auto;
+      padding: 90px 25px 70px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      gap: 60px;
+      position: relative;
+      z-index: 2;
+    }
+
+    .mini-titulo {
+      color: var(--dourado);
+      font-size: 12px;
+      font-weight: bold;
+      letter-spacing: 3px;
+      margin-bottom: 25px;
+    }
+
+    h1 {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(48px, 6vw, 78px);
+      line-height: .98;
+      font-weight: normal;
+      margin-bottom: 28px;
+    }
+
+    h1 span {
+      color: var(--dourado);
+      font-style: italic;
+    }
+
+    .hero-texto {
+      max-width: 570px;
+      color: #5c554b;
+      font-family: Georgia, serif;
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+
+    .botoes {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-block;
+      text-decoration: none;
+      padding: 15px 24px;
+      border-radius: 30px;
+      font-weight: bold;
+      font-size: 14px;
+      transition: .2s;
+    }
+
+    .btn-dourado {
+      background: var(--dourado);
+      color: white;
+    }
+
+    .btn-dourado:hover {
+      background: #986f17;
+      transform: translateY(-2px);
+    }
+
+    .btn-outline {
+      border: 1px solid var(--preto);
+      color: var(--preto);
+    }
+
+    .btn-outline:hover {
+      background: var(--preto);
+      color: white;
+    }
+
+    .destaques {
+      display: flex;
+      gap: 20px;
+      margin-top: 30px;
+      flex-wrap: wrap;
+    }
+
+    .destaques span {
+      font-size: 12px;
+      color: #4f493f;
+    }
+
+    .destaques span::before {
+      content: "✦";
+      color: var(--dourado);
+      margin-right: 7px;
+    }
+
+    /* PRODUTO DESTAQUE */
+    .produto-destaque {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .moldura {
+      background: white;
+      padding: 14px;
+      box-shadow: 0 25px 60px rgba(0,0,0,.15);
+      transform: rotate(2deg);
+      max-width: 510px;
+      width: 100%;
+    }
+
+    .moldura img {
+      width: 100%;
+      display: block;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+    }
+
+    .etiqueta {
+      position: absolute;
+      bottom: -20px;
+      left: 10px;
+      background: white;
+      padding: 22px;
+      width: 235px;
+      box-shadow: 0 15px 35px rgba(0,0,0,.12);
+    }
+
+    .etiqueta small {
+      color: var(--dourado);
+      font-weight: bold;
+      letter-spacing: 1px;
+      font-size: 10px;
+    }
+
+    .etiqueta h3 {
+      font-family: Georgia, serif;
+      margin: 5px 0;
+    }
+
+    /* SEÇÕES */
+    section {
+      padding: 85px 25px;
+    }
+
+    .container {
+      max-width: 1180px;
+      margin: auto;
+    }
+
+    .titulo-secao {
+      text-align: center;
+      margin-bottom: 45px;
+    }
+
+    .titulo-secao small {
+      color: var(--dourado);
+      font-weight: bold;
+      letter-spacing: 3px;
+      font-size: 11px;
+    }
+
+    .titulo-secao h2 {
+      font-family: Georgia, serif;
+      font-size: 45px;
+      font-weight: normal;
+      margin-top: 8px;
+    }
+
+    .titulo-secao p {
+      max-width: 650px;
+      margin: 12px auto;
+      color: #655e54;
+    }
+
+    /* COLEÇÕES */
+    #colecoes {
+      background: var(--branco);
+    }
+
+    .colecoes-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 18px;
+    }
+
+    .colecao {
+      background: var(--creme);
+      border: 1px solid #e1d7c6;
+      overflow: hidden;
+      transition: .25s;
+    }
+
+    .colecao:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 15px 35px rgba(0,0,0,.10);
+    }
+
+    .colecao img {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+      display: block;
+    }
+
+    .colecao-info {
+      padding: 18px;
+    }
+
+    .colecao-info h3 {
+      font-family: Georgia, serif;
+      font-size: 20px;
+      margin-bottom: 6px;
+    }
+
+    .colecao-info p {
+      font-size: 13px;
+      color: #686157;
+    }
+
+    .colecao-link {
+      display: inline-block;
+      margin-top: 12px;
+      color: var(--dourado);
+      font-size: 12px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    /* PRONTA ENTREGA */
+    .pronta {
+      background: var(--preto);
+      color: white;
+    }
+
+    .pronta .titulo-secao p {
+      color: #cfc8bd;
+    }
+
+    .pronta-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 25px;
+    }
+
+    .produto {
+      background: #242424;
+      border: 1px solid #3c3c3c;
+      overflow: hidden;
+    }
+
+    .produto img {
+      width: 100%;
+      display: block;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+    }
+
+    .produto-info {
+      padding: 20px;
+    }
+
+    .produto-info h3 {
+      font-family: Georgia, serif;
+      font-size: 22px;
+      margin-bottom: 5px;
+    }
+
+    .produto-info p {
+      color: #c8c0b5;
+      font-size: 13px;
+    }
+
+    /* PERSONALIZE */
+    .personalize {
+      background: var(--creme);
+    }
+
+    .personalize-box {
+      background: var(--branco);
+      border: 1px solid #ded3c1;
+      padding: 55px;
+      text-align: center;
+    }
+
+    .personalize-box h2 {
+      font-family: Georgia, serif;
+      font-size: 42px;
+      font-weight: normal;
+      margin-bottom: 15px;
+    }
+
+    .personalize-box p {
+      max-width: 680px;
+      margin: 0 auto 25px;
+      color: #635b51;
+    }
+
+    /* HISTÓRIA */
+    .historia {
+      background: white;
+    }
+
+    .historia-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 70px;
+      align-items: center;
+    }
+
+    .historia h2 {
+      font-family: Georgia, serif;
+      font-size: 48px;
+      font-weight: normal;
+      margin-bottom: 20px;
+    }
+
+    .historia h2 span {
+      color: var(--dourado);
+      font-style: italic;
+    }
+
+    .historia p {
+      color: #625b52;
+      margin-bottom: 15px;
+    }
+
+    .frase {
+      border-left: 3px solid var(--dourado);
+      padding-left: 20px;
+      font-family: Georgia, serif;
+      font-style: italic;
+      font-size: 22px;
+      margin-top: 25px;
+    }
+
+    .historia-simbolo {
+      min-height: 350px;
+      background: var(--preto);
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 40px;
+    }
+
+    .historia-simbolo .infinito {
+      font-size: 110px;
+      font-family: Georgia, serif;
+      color: var(--dourado);
+    }
+
+    /* RODAPÉ */
+    footer {
+      background: #101010;
+      color: white;
+      padding: 50px 25px 25px;
+    }
+
+    .footer-grid {
+      max-width: 1180px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr;
+      gap: 50px;
+    }
+
+    footer h3 {
+      font-family: Georgia, serif;
+      font-size: 25px;
+      margin-bottom: 12px;
+    }
+
+    footer p,
+    footer a {
+      color: #bdb6ad;
+      font-size: 13px;
+      text-decoration: none;
+    }
+
+    footer a {
+      display: block;
+      margin: 7px 0;
+    }
+
+    footer a:hover {
+      color: var(--dourado-claro);
+    }
+
+    .copyright {
+      max-width: 1180px;
+      margin: 40px auto 0;
+      padding-top: 20px;
+      border-top: 1px solid #333;
+      text-align: center;
+      color: #777;
+      font-size: 11px;
+    }
+
+    /* CELULAR */
+    @media (max-width: 900px) {
+
+      .menu {
+        flex-wrap: wrap;
+      }
+
+      nav {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+      }
+
+      .hero-conteudo {
+        grid-template-columns: 1fr;
+      }
+
+      .colecoes-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .pronta-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .historia-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .footer-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (max-width: 600px) {
+
+      .logo-nome {
+        font-size: 24px;
+      }
+
+      .hero-conteudo {
+        padding-top: 55px;
+      }
+
+      h1 {
+        font-size: 48px;
+      }
+
+      .colecoes-grid,
+      .pronta-grid,
+      .footer-grid {
+        grid-template-columns: 1fr;
+      }
+
+      section {
+        padding: 60px 18px;
+      }
+
+      .personalize-box {
+        padding: 35px 20px;
+      }
+
+      .personalize-box h2,
+      .historia h2 {
+        font-size: 35px;
+      }
     }
   </style>
 </head>
+
 <body>
 
-<header>
-  <div class="nav">
-    <a href="#" class="logo">ART UIII<span>PERSONALIZADOS COM SIGNIFICADO</span></a>
-    <nav>
-      <a href="#colecoes">Coleções</a>
-      <a href="#sobre">Sobre nós</a>
-      <a href="#contato">Contato</a>
-    </nav>
+  <div class="topo">
+    ✦ FEITO ESPECIALMENTE PARA VOCÊ • PERSONALIZADOS QUE TRANSFORMAM MOMENTOS EM LEMBRANÇAS ✦
   </div>
-</header>
 
-<main>
-  <section class="hero">
-    <div class="hero-inner">
+  <header>
+    <div class="menu">
+
+      <a href="#inicio" class="logo">
+        <div class="logo-circulo">∞</div>
+
+        <div class="logo-texto">
+          <div class="logo-nome">Art Uiii</div>
+          <div class="logo-sub">PERSONALIZADOS</div>
+        </div>
+      </a>
+
+      <nav>
+        <a href="#pronta-entrega">PRONTA-ENTREGA</a>
+        <a href="#personalize">PERSONALIZE</a>
+        <a href="#colecoes">COLEÇÕES</a>
+        <a href="#historia">NOSSA HISTÓRIA</a>
+
+        <!-- TROQUE O LINK ABAIXO PELO SEU WHATSAPP -->
+        <a class="botao-whatsapp" href="https://wa.me/5500000000000" target="_blank">
+          Falar no WhatsApp
+        </a>
+      </nav>
+
+    </div>
+  </header>
+
+
+  <!-- INÍCIO -->
+  <main id="inicio">
+
+    <section class="hero">
+
+      <div class="hero-conteudo">
+
+        <div>
+
+          <div class="mini-titulo">
+            ART UIII PERSONALIZADOS
+          </div>
+
+          <h1>
+            Transforme<br>
+            momentos em<br>
+            <span>lembranças</span> que<br>
+            ficam para<br>
+            sempre.
+          </h1>
+
+          <p class="hero-texto">
+            Azulejos, canecas e presentes personalizados criados
+            para carregar histórias, sentimentos, pessoas e momentos
+            que merecem ser lembrados.
+          </p>
+
+          <div class="botoes">
+            <a href="#pronta-entrega" class="btn btn-dourado">
+              Ver pronta-entrega
+            </a>
+
+            <a href="#personalize" class="btn btn-outline">
+              Quero personalizar
+            </a>
+          </div>
+
+          <div class="destaques">
+            <span>Criação personalizada</span>
+            <span>Pronta-entrega</span>
+            <span>Feito com carinho</span>
+          </div>
+
+        </div>
+
+
+        <div class="produto-destaque">
+
+          <div class="moldura">
+
+            <!-- IMAGEM PRINCIPAL -->
+            <img src="01_Amor_Pet.png" alt="Azulejo personalizado Art Uiii">
+
+          </div>
+
+          <div class="etiqueta">
+            <small>PEÇA EM DESTAQUE</small>
+            <h3>Azulejo Amor Pet</h3>
+            <p>20 × 20 cm • personalizada</p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- COLEÇÕES -->
+    <section id="colecoes">
+
+      <div class="container">
+
+        <div class="titulo-secao">
+          <small>PARA CADA HISTÓRIA</small>
+
+          <h2>Nossas coleções</h2>
+
+          <p>
+            Escolha uma inspiração ou deixe a Art Uiii criar
+            algo único para você.
+          </p>
+        </div>
+
+
+        <div class="colecoes-grid">
+
+          <article class="colecao">
+
+            <img src="01_Amor_Pet.png" alt="Coleção Amor Pet">
+
+            <div class="colecao-info">
+              <h3>Amor Pet</h3>
+
+              <p>
+                Para transformar o amor pelos nossos companheiros
+                em uma lembrança especial.
+              </p>
+
+              <a href="#personalize" class="colecao-link">
+                Quero conhecer →
+              </a>
+            </div>
+
+          </article>
+
+
+          <article class="colecao">
+
+            <img src="02_Universos_e_Fantasia.png" alt="Coleção Universos e Fantasia">
+
+            <div class="colecao-info">
+              <h3>Universos & Fantasia</h3>
+
+              <p>
+                Para quem vive entre mundos, personagens,
+                sonhos e imaginação.
+              </p>
+
+              <a href="#personalize" class="colecao-link">
+                Quero conhecer →
+              </a>
+            </div>
+
+          </article>
+
+
+          <article class="colecao">
+
+            <img src="03_Essencia_e_Poder.png" alt="Coleção Essência e Poder">
+
+            <div class="colecao-info">
+              <h3>Essência & Poder</h3>
+
+              <p>
+                Artes marcantes para personalidades fortes
+                e cheias de atitude.
+              </p>
+
+              <a href="#personalize" class="colecao-link">
+                Quero conhecer →
+              </a>
+            </div>
+
+          </article>
+
+
+          <article class="colecao">
+
+            <img src="04_Amores_Intensos.png" alt="Coleção Amores Intensos">
+
+            <div class="colecao-info">
+              <h3>Amores Intensos</h3>
+
+              <p>
+                Para celebrar sentimentos, conexões,
+                paixões e histórias especiais.
+              </p>
+
+              <a href="#personalize" class="colecao-link">
+                Quero conhecer →
+              </a>
+            </div>
+
+          </article>
+
+
+          <article class="colecao">
+
+            <img src="05_Recomecos.png" alt="Coleção Recomeços">
+
+            <div class="colecao-info">
+              <h3>Recomeços</h3>
+
+              <p>
+                Para marcar novas fases, mudanças,
+                força e novos capítulos.
+              </p>
+
+              <a href="#personalize" class="colecao-link">
+                Quero conhecer →
+              </a>
+            </div>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- PRONTA ENTREGA -->
+    <section id="pronta-entrega" class="pronta">
+
+      <div class="container">
+
+        <div class="titulo-secao">
+          <small>VOCÊ ESCOLHE • A GENTE PREPARA</small>
+
+          <h2>Pronta-entrega</h2>
+
+          <p>
+            Algumas peças já estão prontinhas esperando
+            por uma nova história.
+          </p>
+        </div>
+
+
+        <div class="pronta-grid">
+
+          <article class="produto">
+
+            <img src="01_Amor_Pet.png" alt="Azulejo Amor Pet">
+
+            <div class="produto-info">
+              <h3>Amor Pet</h3>
+              <p>Azulejo personalizado • pronta-entrega</p>
+            </div>
+
+          </article>
+
+
+          <article class="produto">
+
+            <img src="02_Universos_e_Fantasia.png" alt="Universos e Fantasia">
+
+            <div class="produto-info">
+              <h3>Universos & Fantasia</h3>
+              <p>Azulejo personalizado • pronta-entrega</p>
+            </div>
+
+          </article>
+
+
+          <article class="produto">
+
+            <img src="03_Essencia_e_Poder.png" alt="Essência e Poder">
+
+            <div class="produto-info">
+              <h3>Essência & Poder</h3>
+              <p>Azulejo personalizado • pronta-entrega</p>
+            </div>
+
+          </article>
+
+
+          <article class="produto">
+
+            <img src="04_Amores_Intensos.png" alt="Amores Intensos">
+
+            <div class="produto-info">
+              <h3>Amores Intensos</h3>
+              <p>Azulejo personalizado • pronta-entrega</p>
+            </div>
+
+          </article>
+
+
+          <article class="produto">
+
+            <img src="05_Recomecos.png" alt="Recomeços">
+
+            <div class="produto-info">
+              <h3>Recomeços</h3>
+              <p>Azulejo personalizado • pronta-entrega</p>
+            </div>
+
+          </article>
+
+
+          <article class="produto">
+
+            <img src="01_Amor_Pet.png" alt="Presente personalizado">
+
+            <div class="produto-info">
+              <h3>Seu momento</h3>
+              <p>Também criamos uma arte só sua.</p>
+            </div>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- PERSONALIZE -->
+    <section id="personalize" class="personalize">
+
+      <div class="container">
+
+        <div class="personalize-box">
+
+          <div class="mini-titulo">
+            SUA HISTÓRIA. SUA ARTE.
+          </div>
+
+          <h2>
+            Tem uma ideia na cabeça?
+          </h2>
+
+          <p>
+            Conte para nós o que você imaginou.
+            Pode ser uma foto, uma frase, uma pessoa,
+            um pet ou simplesmente um sentimento.
+            A Art Uiii transforma sua ideia em uma peça única.
+          </p>
+
+          <!-- TROQUE O LINK PELO SEU WHATSAPP -->
+          <a href="https://wa.me/5500000000000"
+             target="_blank"
+             class="btn btn-dourado">
+            Quero criar minha peça
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- NOSSA HISTÓRIA -->
+    <section id="historia" class="historia">
+
+      <div class="container">
+
+        <div class="historia-grid">
+
+          <div>
+
+            <div class="mini-titulo">
+              NOSSA HISTÓRIA
+            </div>
+
+            <h2>
+              Porque algumas lembranças
+              merecem <span>ficar para sempre.</span>
+            </h2>
+
+            <p>
+              A Art Uiii nasceu da vontade de transformar
+              sentimentos em algo que pudesse ser visto,
+              tocado e guardado.
+            </p>
+
+            <p>
+              Mais do que personalizar produtos,
+              queremos ajudar você a eternizar pessoas,
+              histórias, conquistas, amores e momentos.
+            </p>
+
+            <div class="frase">
+              "Uma lembrança pode caber em um azulejo,
+              mas o sentimento que ela carrega não tem tamanho."
+            </div>
+
+          </div>
+
+
+          <div class="historia-simbolo">
+
+            <div>
+
+              <div class="infinito">∞</div>
+
+              <h3>
+                ART UIII
+              </h3>
+
+              <p>
+                Personalizados feitos para permanecer.
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- RODAPÉ -->
+  <footer>
+
+    <div class="footer-grid">
+
       <div>
-        <h1>Transforme sentimentos em <span>arte.</span></h1>
-        <p>Azulejos, canecas e presentes personalizados para transformar histórias, pessoas e momentos especiais em algo que fica.</p>
-        <a class="btn" href="#colecoes">Conheça nossas coleções</a>
+
+        <h3>Art Uiii</h3>
+
+        <p>
+          Personalizados que transformam momentos
+          em lembranças.
+        </p>
+
+        <p style="margin-top:15px;">
+          Azulejos • Canecas • Presentes personalizados
+        </p>
+
       </div>
-      <div class="hero-card">
-        <h3>Feito para ter significado ♡</h3>
-        <p>Escolha uma inspiração, personalize do seu jeito e transforme uma lembrança em uma peça única.</p>
+
+
+      <div>
+
+        <h3>Menu</h3>
+
+        <a href="#inicio">Início</a>
+        <a href="#pronta-entrega">Pronta-entrega</a>
+        <a href="#personalize">Personalize</a>
+        <a href="#colecoes">Coleções</a>
+        <a href="#historia">Nossa história</a>
+
       </div>
-    </div>
-  </section>
 
-  <section id="colecoes">
-    <div class="section-title">
-      <h2>Nossas Coleções</h2>
-      <p>Escolha a que mais combina com sua história.</p>
-    </div>
 
-    <div class="grid">
+      <div>
 
-      <article class="card">
-        <img src="01_Amor_Pet.png" alt="Coleção Amor Pet">
-        <div class="card-body">
-          <span class="tag">Coleção 01</span>
-          <h3>🐾 Amor Pet</h3>
-          <p>Para quem sabe que alguns companheiros de quatro patas deixam marcas para a vida inteira.</p>
-          <div class="sizes">Azulejos: 10×10 • 15×15 • 20×20 cm</div>
-          <a class="btn dark" href="https://wa.me/55SEUNUMERO?text=Olá!%20Quero%20conhecer%20a%20coleção%20Amor%20Pet." target="_blank">Quero este</a>
-        </div>
-      </article>
+        <h3>Fale conosco</h3>
 
-      <article class="card">
-        <img src="02_Universos_e_Fantasia.png" alt="Coleção Universos e Fantasia">
-        <div class="card-body">
-          <span class="tag">Coleção 02</span>
-          <h3>🐉 Universos & Fantasia</h3>
-          <p>Para quem vive entre mundos, histórias, personagens e uma imaginação sem limites.</p>
-          <div class="sizes">Azulejos: 10×10 • 15×15 • 20×20 cm</div>
-          <a class="btn dark" href="https://wa.me/55SEUNUMERO?text=Olá!%20Quero%20conhecer%20a%20coleção%20Universos%20e%20Fantasia." target="_blank">Quero este</a>
-        </div>
-      </article>
+        <!-- TROQUE PELO SEU WHATSAPP -->
+        <a href="https://wa.me/5500000000000" target="_blank">
+          WhatsApp
+        </a>
 
-      <article class="card">
-        <img src="03_Essencia_e_Poder.png" alt="Coleção Essência e Poder">
-        <div class="card-body">
-          <span class="tag">Coleção 03</span>
-          <h3>👑 Essência & Poder</h3>
-          <p>Artes marcantes para pessoas de personalidade forte, presença e identidade.</p>
-          <div class="sizes">Azulejos: 10×10 • 15×15 • 20×20 cm</div>
-          <a class="btn dark" href="https://wa.me/55SEUNUMERO?text=Olá!%20Quero%20conhecer%20a%20coleção%20Essência%20e%20Poder." target="_blank">Quero este</a>
-        </div>
-      </article>
+        <a href="#">
+          Instagram
+        </a>
 
-      <article class="card">
-        <img src="04_Amores_Intensos.png" alt="Coleção Amores Intensos">
-        <div class="card-body">
-          <span class="tag">Coleção 04</span>
-          <h3>❤️ Amores Intensos</h3>
-          <p>Para sentimentos que não precisam de muitas explicações. Precisam apenas ser sentidos.</p>
-          <div class="sizes">Azulejos: 10×10 • 15×15 • 20×20 cm</div>
-          <a class="btn dark" href="https://wa.me/55SEUNUMERO?text=Olá!%20Quero%20conhecer%20a%20coleção%20Amores%20Intensos." target="_blank">Quero este</a>
-        </div>
-      </article>
+        <a href="#">
+          Facebook
+        </a>
 
-      <article class="card">
-        <img src="05_Recomecos.png" alt="Coleção Recomeços">
-        <div class="card-body">
-          <span class="tag">Coleção 05</span>
-          <h3>🌳 Recomeços</h3>
-          <p>Para celebrar mudanças, força, escolhas e o começo de um novo capítulo.</p>
-          <div class="sizes">Azulejos: 10×10 • 15×15 • 20×20 cm</div>
-          <a class="btn dark" href="https://wa.me/55SEUNUMERO?text=Olá!%20Quero%20conhecer%20a%20coleção%20Recomeços." target="_blank">Quero este</a>
-        </div>
-      </article>
-
-    </div>
-  </section>
-
-  <section id="sobre" class="about">
-    <div class="about-inner">
-      <div class="section-title">
-        <h2>Por trás de cada peça, existe uma história.</h2>
       </div>
-      <p>Na Art Uiii, a gente acredita que presente bom não é apenas bonito. É aquele que faz alguém sorrir, lembrar, se emocionar ou dizer: “isso foi feito para mim”.</p>
-    </div>
-  </section>
 
-  <section id="contato" class="cta">
-    <div class="cta-box">
-      <h2>Vamos transformar sua ideia em arte?</h2>
-      <p>Fale com a Art Uiii e peça sua personalização.</p>
-      <a class="btn" href="https://wa.me/55SEUNUMERO?text=Olá!%20Vim%20pelo%20site%20da%20Art%20Uiii." target="_blank">💬 Falar pelo WhatsApp</a>
     </div>
-  </section>
-</main>
 
-<footer>
-  <strong>ART UIII</strong> — Personalizados com significado ♡<br>
-  © 2026 Art Uiii. Todos os direitos reservados.
-</footer>
+
+    <div class="copyright">
+      © 2026 Art Uiii Personalizados • Feito com carinho.
+    </div>
+
+  </footer>
 
 </body>
 </html>
