@@ -630,6 +630,19 @@
         font-size: 35px;
       }
     }
+
+    #colecoes { scroll-margin-top: 130px; } .catalogo-nav { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-bottom: 42px; }
+    .catalogo-nav a { color: #171717; border: 1px solid #b88620; border-radius: 24px; padding: 9px 15px; text-decoration: none; font-size: 14px; }
+    .catalogo-nav a:hover, .catalogo-nav a:focus-visible { background: #171717; color: white; }
+    .catalogo-grupo { margin-top: 48px; scroll-margin-top: 190px; }
+    .catalogo-grupo h3 { font: normal 30px Georgia, serif; margin-bottom: 22px; }
+    .catalogo-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 22px; }
+    .catalogo-modelo { max-width: 264px; width: 100%; background: #f8f4ec; border: 1px solid #e1d7c6; padding: 14px; display: flex; flex-direction: column; }
+    .catalogo-modelo img { width: 100%; height: 210px; object-fit: contain; background: #fff; }
+    .catalogo-modelo h4 { font: normal 20px/1.3 Georgia, serif; margin: 14px 0 8px; }
+    .catalogo-modelo p { color: #625b52; font-size: 13px; margin-bottom: 14px; }
+    .catalogo-modelo a { color: #171717; font-weight: bold; margin-top: auto; font-size: 13px; padding: 10px 0; }
+    @media(max-width:600px) { #colecoes { scroll-margin-top: 225px; } .catalogo-grid { grid-template-columns: 1fr; justify-items: center; } .catalogo-grupo { scroll-margin-top: 320px; } }
   </style>
 </head>
 
@@ -736,128 +749,58 @@
 
 
     <!-- COLEÇÕES -->
-    <section id="colecoes">
-
-      <div class="container">
-
-        <div class="titulo-secao">
-          <small>PARA CADA HISTÓRIA</small>
-
-          <h2>Nossas coleções</h2>
-
-          <p>
-            Escolha uma inspiração ou deixe a Art Uiii criar
-            algo único para você.
-          </p>
-        </div>
-
-
-        <div class="colecoes-grid">
-
-          <article class="colecao">
-
-            <img src="01_Amor_Pet.png" alt="Coleção Amor Pet">
-
-            <div class="colecao-info">
-              <h3>Amor Pet</h3>
-
-              <p>
-                Para transformar o amor pelos nossos companheiros
-                em uma lembrança especial.
-              </p>
-
-              <a href="#personalize" class="colecao-link">
-                Quero conhecer →
-              </a>
-            </div>
-
-          </article>
-
-
-          <article class="colecao">
-
-            <img src="02_Universos_e_Fantasia.png" alt="Coleção Universos e Fantasia">
-
-            <div class="colecao-info">
-              <h3>Universos & Fantasia</h3>
-
-              <p>
-                Para quem vive entre mundos, personagens,
-                sonhos e imaginação.
-              </p>
-
-              <a href="#personalize" class="colecao-link">
-                Quero conhecer →
-              </a>
-            </div>
-
-          </article>
-
-
-          <article class="colecao">
-
-            <img src="03_Essencia_e_Poder.png" alt="Coleção Essência e Poder">
-
-            <div class="colecao-info">
-              <h3>Essência & Poder</h3>
-
-              <p>
-                Artes marcantes para personalidades fortes
-                e cheias de atitude.
-              </p>
-
-              <a href="#personalize" class="colecao-link">
-                Quero conhecer →
-              </a>
-            </div>
-
-          </article>
-
-
-          <article class="colecao">
-
-            <img src="04_Amores_Intensos.png" alt="Coleção Amores Intensos">
-
-            <div class="colecao-info">
-              <h3>Amores Intensos</h3>
-
-              <p>
-                Para celebrar sentimentos, conexões,
-                paixões e histórias especiais.
-              </p>
-
-              <a href="#personalize" class="colecao-link">
-                Quero conhecer →
-              </a>
-            </div>
-
-          </article>
-
-
-          <article class="colecao">
-
-            <img src="05_Recomecos.png" alt="Coleção Recomeços">
-
-            <div class="colecao-info">
-              <h3>Recomeços</h3>
-
-              <p>
-                Para marcar novas fases, mudanças,
-                força e novos capítulos.
-              </p>
-
-              <a href="#personalize" class="colecao-link">
-                Quero conhecer →
-              </a>
-            </div>
-
-          </article>
-
-        </div>
-
-      </div>
-
-    </section>
+    <section id="colecoes"><div class="container"><div class="titulo-secao"><small>PARA CADA HISTÓRIA</small><h2>Nossas coleções</h2><p>28 inspirações para presentear e celebrar. Escolha seu modelo e converse com a Art Uiii sobre a personalização.</p></div><nav class="catalogo-nav" aria-label="Coleções do catálogo">
+<a href="#colecao-amor-pet">Amor Pet</a>
+<a href="#colecao-amor-de-mae">Amor de Mãe</a>
+<a href="#colecao-casais-amor">Casais &amp; Amor</a>
+<a href="#colecao-familia">Família</a>
+<a href="#colecao-memorias-homenagens">Memórias &amp; Homenagens</a>
+<a href="#colecao-momentos-especiais">Momentos Especiais</a>
+<a href="#colecao-presentes-personalizados">Presentes Personalizados</a>
+</nav>
+<div class="catalogo-grupo" id="colecao-amor-pet"><h3>Amor Pet</h3><div class="catalogo-grid">
+<article class="catalogo-modelo"><img src="assets/catalogo/amor-pet/dia-do-amigo.webp" width="199" height="191" loading="lazy" decoding="async" alt="Modelo Dia do Amigo — Amor Pet"><h4>Dia do Amigo</h4><p>Personalização e disponibilidade sob consulta.</p><a href="https://wa.me/5511944606772?text=Ol%C3%A1%21%20Gostaria%20de%20personalizar%20o%20modelo%20Dia%20do%20Amigo%20da%20cole%C3%A7%C3%A3o%20Amor%20Pet." target="_blank" rel="noopener noreferrer" aria-label="Personalizar Dia do Amigo pelo WhatsApp">Personalizar no WhatsApp →</a></article>
+<article class="catalogo-modelo"><img src="assets/catalogo/amor-pet/meu-pet.webp" width="200" height="191" loading="lazy" decoding="async" alt="Modelo Meu Pet — Amor Pet"><h4>Meu Pet</h4><p>Personalização e disponibilidade sob consulta.</p><a href="https://wa.me/5511944606772?text=Ol%C3%A1%21%20Gostaria%20de%20personalizar%20o%20modelo%20Meu%20Pet%20da%20cole%C3%A7%C3%A3o%20Amor%20Pet." target="_blank" rel="noopener noreferrer" aria-label="Personalizar Meu Pet pelo WhatsApp">Personalizar no WhatsApp →</a></article>
+</div></div>
+<div class="catalogo-grupo" id="colecao-amor-de-mae"><h3>Amor de Mãe</h3><div class="catalogo-grid">
+<article class="catalogo-modelo"><img src="assets/catalogo/amor-de-mae/dia-das-maes.webp" width="198" height="191" loading="lazy" decoding="async" alt="Modelo Dia das Mães — Amor de Mãe"><h4>Dia das Mães</h4><p>Personalização e disponibilidade sob consulta.</p><a href="https://wa.me/5511944606772?text=Ol%C3%A1%21%20Gostaria%20de%20personalizar%20o%20modelo%20Dia%20das%20M%C3%A3es%20da%20cole%C3%A7%C3%A3o%20Amor%20de%20M%C3%A3e." target="_blank" rel="noopener noreferrer" aria-label="Personalizar Dia das Mães pelo WhatsApp">Personalizar no WhatsApp →</a></article>
+</div></div>
+<div class="catalogo-grupo" id="colecao-casais-amor"><h3>Casais &amp; Amor</h3><div class="catalogo-grid">
+<article class="catalogo-modelo"><img src="assets/catalogo/casais-amor/valentines-day.webp" width="184" height="186" loading="lazy" decoding="async" alt="Modelo Dia dos Namorados — Valentine’s — Casais &amp; Amor"><h4>Dia dos Namorados — Valentine’s</h4><p>Personalização e disponibilidade sob consulta.</p><a href="https://wa.me/5511944606772?text=Ol%C3%A1%21%20Gostaria%20de%20personalizar%20o%20modelo%20Dia%20dos%20Namorados%20%E2%80%94%20Valentine%E2%80%99s%20da%20cole%C3%A7%C3%A3o%20Casais%20%26%20Amor." target="_blank" rel="noopener noreferrer" aria-label="Personalizar Dia dos Namorados — Valentine’s pelo WhatsApp">Personalizar no WhatsApp →</a></article>
+<article class="catalogo-modelo"><img src="assets/catalogo/casais-amor/dia-dos-namorados.webp" width="245" height="191" loading="lazy" decoding="async" alt="Modelo Dia dos Namorados — 12 de junho — Casais &amp; Amor"><h4>Dia dos Namorados — 12 de junho</h4><p>Personalização e disponibilidade sob consulta.</p><a href="https://wa.me/5511944606772?text=Ol%C3%A1%21%20Gostaria%20de%20personalizar%20o%20modelo%20Dia%20dos%20Namorados%20%E2%80%94%2012%20de%20junho%20da%20cole%C3%A7%C3%A3o%20Casais%20%26%20Amor." target="_blank" rel="noopener noreferrer" aria-label="Personalizar Dia dos Namorados — 12 de junho pelo WhatsApp">Personalizar no WhatsApp →</a></article>
+</div></div>
+<div class="catalogo-grupo" id="colecao-familia"><h3>Família</h3><div class="catalogo-grid">
+<article class="catalogo-modelo"><img src="assets/catalogo/familia/dia-dos-avos.webp" width="193" height="181" loading="lazy" decoding="async" alt="Modelo Dia dos Avós — Família"><h4>Dia dos Avós</h4><p>Personalização e disponibilidade sob consulta.</p><a href="https://wa.me/5511944606772?text=Ol%C3%A1%21%20Gostaria%20de%20personalizar%20o%20modelo%20Dia%20dos%20Av%C3%B3s%20da%20cole%C3%A7%C3%A3o%20Fam%C3%ADlia." target="_blank" rel="noopener noreferrer" aria-label="Personalizar Dia dos Avós pelo WhatsApp">Personalizar no WhatsApp →</a></article>
+<article class="catalogo-modelo"><img src="assets/catalogo/familia/dia-dos-pais.webp" width="199" height="181" loading="lazy" decoding="async" alt="Modelo Dia dos Pais — Família"><h4>Dia dos Pais</h4><p>Personalização e disponibilidade sob consulta.</p><a href="https://wa.me/5511944606772?text=Ol%C3%A1%21%20Gostaria%20de%20personalizar%20o%20modelo%20Dia%20dos%20Pais%20da%20cole%C3%A7%C3%A3o%20Fam%C3%ADlia." target="_blank" rel="noopener noreferrer" aria-label="Personalizar Dia dos Pais pelo WhatsApp">Personalizar no WhatsApp →</a></article>
+<article class="catalogo-modelo"><img src="assets/catalogo/familia/dia-das-criancas.webp" width="194" height="188" loading="lazy" decoding="async" alt="Modelo Dia das Crianças — Família"><h4>Dia das Crianças</h4><p>Personalização e disponibilidade sob consulta.</p><a href="https://wa.me/5511944606772?text=Ol%C3%A1%21%20Gostaria%20de%20personalizar%20o%20modelo%20Dia%20das%20Crian%C3%A7as%20da%20cole%C3%A7%C3%A3o%20Fam%C3%ADlia." target="_blank" rel="noopener noreferrer" aria-label="Personalizar Dia das Crianças pelo WhatsApp">Personalizar no WhatsApp →</a></article>
+</div></div>
+<div class="catalogo-grupo" id="colecao-memorias-homenagens"><h3>Memórias &amp; Homenagens</h3><div class="catalogo-grid">
+<article class="catalogo-modelo"><img src="assets/catalogo/memorias-homenagens/finados.webp" width="198" height="190" loading="lazy" decoding="async" alt="Modelo Finados — In memoriam — Memórias &amp; Homenagens"><h4>Finados — In memoriam</h4><p>Personalização e disponibilidade sob consulta.</p><a href="https://wa.me/5511944606772?text=Ol%C3%A1%21%20Gostaria%20de%20personalizar%20o%20modelo%20Finados%20%E2%80%94%20In%20memoriam%20da%20cole%C3%A7%C3%A3o%20Mem%C3%B3rias%20%26%20Homenagens." target="_blank" rel="noopener noreferrer" aria-label="Personalizar Finados — In memoriam pelo WhatsApp">Personalizar no WhatsApp →</a></article>
+</div></div>
+<div class="catalogo-grupo" id="colecao-momentos-especiais"><h3>Momentos Especiais</h3><div class="catalogo-grid">
+<article class="catalogo-modelo"><img src="assets/catalogo/momentos-especiais/ano-novo.webp" width="181" height="184" loading="lazy" decoding="async" alt="Modelo Ano Novo — Momentos Especiais"><h4>Ano Novo</h4><p>Personalização e disponibilidade sob consulta.</p><a href="https://wa.me/5511944606772?text=Ol%C3%A1%21%20Gostaria%20de%20personalizar%20o%20modelo%20Ano%20Novo%20da%20cole%C3%A7%C3%A3o%20Momentos%20Especiais." target="_blank" rel="noopener noreferrer" aria-label="Personalizar Ano Novo pelo WhatsApp">Personalizar no WhatsApp →</a></article>
+<article class="catalogo-modelo"><img src="assets/catalogo/momentos-especiais/dia-de-reis.webp" width="181" height="185" loading="lazy" decoding="async" alt="Modelo Dia de Reis — Momentos Especiais"><h4>Dia de Reis</h4><p>Personalização e disponibilidade sob consulta.</p><a href="https://wa.me/5511944606772?text=Ol%C3%A1%21%20Gostaria%20de%20personalizar%20o%20modelo%20Dia%20de%20Reis%20da%20cole%C3%A7%C3%A3o%20Momentos%20Especiais." target="_blank" rel="noopener noreferrer" aria-label="Personalizar Dia de Reis pelo WhatsApp">Personalizar no WhatsApp →</a></article>
+<article class="catalogo-modelo"><img src="assets/catalogo/momentos-especiais/carnaval.webp" width="181" height="186" loading="lazy" decoding="async" alt="Modelo Carnaval — Momentos Especiais"><h4>Carnaval</h4><p>Personalização e disponibilidade sob consulta.</p><a href="https://wa.me/5511944606772?text=Ol%C3%A1%21%20Gostaria%20de%20personalizar%20o%20modelo%20Carnaval%20da%20cole%C3%A7%C3%A3o%20Momentos%20Especiais." target="_blank" rel="noopener noreferrer" aria-label="Personalizar Carnaval pelo WhatsApp">Personalizar no WhatsApp →</a></article>
+<article class="catalogo-modelo"><img src="assets/catalogo/momentos-especiais/dia-da-mulher.webp" width="195" height="186" loading="lazy" decoding="async" alt="Modelo Dia da Mulher — Momentos Especiais"><h4>Dia da Mulher</h4><p>Personalização e disponibilidade sob consulta.</p><a href="https://wa.me/5511944606772?text=Ol%C3%A1%21%20Gostaria%20de%20personalizar%20o%20modelo%20Dia%20da%20Mulher%20da%20cole%C3%A7%C3%A3o%20Momentos%20Especiais." target="_blank" rel="noopener noreferrer" aria-label="Personalizar Dia da Mulher pelo WhatsApp">Personalizar no WhatsApp →</a></article>
+<article class="catalogo-modelo"><img src="assets/catalogo/momentos-especiais/pascoa.webp" width="304" height="187" loading="lazy" decoding="async" alt="Modelo Páscoa — Momentos Especiais"><h4>Páscoa</h4><p>Personalização e disponibilidade sob consulta.</p><a href="https://wa.me/5511944606772?text=Ol%C3%A1%21%20Gostaria%20de%20personalizar%20o%20modelo%20P%C3%A1scoa%20da%20cole%C3%A7%C3%A3o%20Momentos%20Especiais." target="_blank" rel="noopener noreferrer" aria-label="Personalizar Páscoa pelo WhatsApp">Personalizar no WhatsApp →</a></article>
+<article class="catalogo-modelo"><img src="assets/catalogo/momentos-especiais/sao-jorge.webp" width="196" height="192" loading="lazy" decoding="async" alt="Modelo São Jorge — Momentos Especiais"><h4>São Jorge</h4><p>Personalização e disponibilidade sob consulta.</p><a href="https://wa.me/5511944606772?text=Ol%C3%A1%21%20Gostaria%20de%20personalizar%20o%20modelo%20S%C3%A3o%20Jorge%20da%20cole%C3%A7%C3%A3o%20Momentos%20Especiais." target="_blank" rel="noopener noreferrer" aria-label="Personalizar São Jorge pelo WhatsApp">Personalizar no WhatsApp →</a></article>
+<article class="catalogo-modelo"><img src="assets/catalogo/momentos-especiais/nossa-senhora-de-fatima.webp" width="197" height="192" loading="lazy" decoding="async" alt="Modelo Nossa Senhora de Fátima — Momentos Especiais"><h4>Nossa Senhora de Fátima</h4><p>Personalização e disponibilidade sob consulta.</p><a href="https://wa.me/5511944606772?text=Ol%C3%A1%21%20Gostaria%20de%20personalizar%20o%20modelo%20Nossa%20Senhora%20de%20F%C3%A1tima%20da%20cole%C3%A7%C3%A3o%20Momentos%20Especiais." target="_blank" rel="noopener noreferrer" aria-label="Personalizar Nossa Senhora de Fátima pelo WhatsApp">Personalizar no WhatsApp →</a></article>
+<article class="catalogo-modelo"><img src="assets/catalogo/momentos-especiais/santa-rita-de-cassia.webp" width="195" height="191" loading="lazy" decoding="async" alt="Modelo Santa Rita de Cássia — Momentos Especiais"><h4>Santa Rita de Cássia</h4><p>Personalização e disponibilidade sob consulta.</p><a href="https://wa.me/5511944606772?text=Ol%C3%A1%21%20Gostaria%20de%20personalizar%20o%20modelo%20Santa%20Rita%20de%20C%C3%A1ssia%20da%20cole%C3%A7%C3%A3o%20Momentos%20Especiais." target="_blank" rel="noopener noreferrer" aria-label="Personalizar Santa Rita de Cássia pelo WhatsApp">Personalizar no WhatsApp →</a></article>
+<article class="catalogo-modelo"><img src="assets/catalogo/momentos-especiais/festa-junina.webp" width="196" height="192" loading="lazy" decoding="async" alt="Modelo Festa Junina — Momentos Especiais"><h4>Festa Junina</h4><p>Personalização e disponibilidade sob consulta.</p><a href="https://wa.me/5511944606772?text=Ol%C3%A1%21%20Gostaria%20de%20personalizar%20o%20modelo%20Festa%20Junina%20da%20cole%C3%A7%C3%A3o%20Momentos%20Especiais." target="_blank" rel="noopener noreferrer" aria-label="Personalizar Festa Junina pelo WhatsApp">Personalizar no WhatsApp →</a></article>
+<article class="catalogo-modelo"><img src="assets/catalogo/momentos-especiais/dia-do-padre.webp" width="196" height="183" loading="lazy" decoding="async" alt="Modelo Dia do Padre — Momentos Especiais"><h4>Dia do Padre</h4><p>Personalização e disponibilidade sob consulta.</p><a href="https://wa.me/5511944606772?text=Ol%C3%A1%21%20Gostaria%20de%20personalizar%20o%20modelo%20Dia%20do%20Padre%20da%20cole%C3%A7%C3%A3o%20Momentos%20Especiais." target="_blank" rel="noopener noreferrer" aria-label="Personalizar Dia do Padre pelo WhatsApp">Personalizar no WhatsApp →</a></article>
+<article class="catalogo-modelo"><img src="assets/catalogo/momentos-especiais/dia-da-arvore.webp" width="206" height="183" loading="lazy" decoding="async" alt="Modelo Dia da Árvore — Momentos Especiais"><h4>Dia da Árvore</h4><p>Personalização e disponibilidade sob consulta.</p><a href="https://wa.me/5511944606772?text=Ol%C3%A1%21%20Gostaria%20de%20personalizar%20o%20modelo%20Dia%20da%20%C3%81rvore%20da%20cole%C3%A7%C3%A3o%20Momentos%20Especiais." target="_blank" rel="noopener noreferrer" aria-label="Personalizar Dia da Árvore pelo WhatsApp">Personalizar no WhatsApp →</a></article>
+<article class="catalogo-modelo"><img src="assets/catalogo/momentos-especiais/sao-francisco-de-assis.webp" width="206" height="182" loading="lazy" decoding="async" alt="Modelo São Francisco de Assis — Momentos Especiais"><h4>São Francisco de Assis</h4><p>Personalização e disponibilidade sob consulta.</p><a href="https://wa.me/5511944606772?text=Ol%C3%A1%21%20Gostaria%20de%20personalizar%20o%20modelo%20S%C3%A3o%20Francisco%20de%20Assis%20da%20cole%C3%A7%C3%A3o%20Momentos%20Especiais." target="_blank" rel="noopener noreferrer" aria-label="Personalizar São Francisco de Assis pelo WhatsApp">Personalizar no WhatsApp →</a></article>
+<article class="catalogo-modelo"><img src="assets/catalogo/momentos-especiais/nossa-senhora-aparecida.webp" width="214" height="187" loading="lazy" decoding="async" alt="Modelo Nossa Senhora Aparecida — Momentos Especiais"><h4>Nossa Senhora Aparecida</h4><p>Personalização e disponibilidade sob consulta.</p><a href="https://wa.me/5511944606772?text=Ol%C3%A1%21%20Gostaria%20de%20personalizar%20o%20modelo%20Nossa%20Senhora%20Aparecida%20da%20cole%C3%A7%C3%A3o%20Momentos%20Especiais." target="_blank" rel="noopener noreferrer" aria-label="Personalizar Nossa Senhora Aparecida pelo WhatsApp">Personalizar no WhatsApp →</a></article>
+<article class="catalogo-modelo"><img src="assets/catalogo/momentos-especiais/halloween.webp" width="205" height="189" loading="lazy" decoding="async" alt="Modelo Halloween — Momentos Especiais"><h4>Halloween</h4><p>Personalização e disponibilidade sob consulta.</p><a href="https://wa.me/5511944606772?text=Ol%C3%A1%21%20Gostaria%20de%20personalizar%20o%20modelo%20Halloween%20da%20cole%C3%A7%C3%A3o%20Momentos%20Especiais." target="_blank" rel="noopener noreferrer" aria-label="Personalizar Halloween pelo WhatsApp">Personalizar no WhatsApp →</a></article>
+<article class="catalogo-modelo"><img src="assets/catalogo/momentos-especiais/natal.webp" width="219" height="189" loading="lazy" decoding="async" alt="Modelo Natal — Momentos Especiais"><h4>Natal</h4><p>Personalização e disponibilidade sob consulta.</p><a href="https://wa.me/5511944606772?text=Ol%C3%A1%21%20Gostaria%20de%20personalizar%20o%20modelo%20Natal%20da%20cole%C3%A7%C3%A3o%20Momentos%20Especiais." target="_blank" rel="noopener noreferrer" aria-label="Personalizar Natal pelo WhatsApp">Personalizar no WhatsApp →</a></article>
+</div></div>
+<div class="catalogo-grupo" id="colecao-presentes-personalizados"><h3>Presentes Personalizados</h3><div class="catalogo-grid">
+<article class="catalogo-modelo"><img src="assets/catalogo/presentes-personalizados/dia-do-cafe.webp" width="207" height="187" loading="lazy" decoding="async" alt="Modelo Dia do Café — Presentes Personalizados"><h4>Dia do Café</h4><p>Personalização e disponibilidade sob consulta.</p><a href="https://wa.me/5511944606772?text=Ol%C3%A1%21%20Gostaria%20de%20personalizar%20o%20modelo%20Dia%20do%20Caf%C3%A9%20da%20cole%C3%A7%C3%A3o%20Presentes%20Personalizados." target="_blank" rel="noopener noreferrer" aria-label="Personalizar Dia do Café pelo WhatsApp">Personalizar no WhatsApp →</a></article>
+<article class="catalogo-modelo"><img src="assets/catalogo/presentes-personalizados/dia-do-administrador.webp" width="194" height="183" loading="lazy" decoding="async" alt="Modelo Dia do Administrador — Presentes Personalizados"><h4>Dia do Administrador</h4><p>Personalização e disponibilidade sob consulta.</p><a href="https://wa.me/5511944606772?text=Ol%C3%A1%21%20Gostaria%20de%20personalizar%20o%20modelo%20Dia%20do%20Administrador%20da%20cole%C3%A7%C3%A3o%20Presentes%20Personalizados." target="_blank" rel="noopener noreferrer" aria-label="Personalizar Dia do Administrador pelo WhatsApp">Personalizar no WhatsApp →</a></article>
+<article class="catalogo-modelo"><img src="assets/catalogo/presentes-personalizados/dia-da-secretaria.webp" width="224" height="184" loading="lazy" decoding="async" alt="Modelo Dia da Secretária — Presentes Personalizados"><h4>Dia da Secretária</h4><p>Personalização e disponibilidade sob consulta.</p><a href="https://wa.me/5511944606772?text=Ol%C3%A1%21%20Gostaria%20de%20personalizar%20o%20modelo%20Dia%20da%20Secret%C3%A1ria%20da%20cole%C3%A7%C3%A3o%20Presentes%20Personalizados." target="_blank" rel="noopener noreferrer" aria-label="Personalizar Dia da Secretária pelo WhatsApp">Personalizar no WhatsApp →</a></article>
+<article class="catalogo-modelo"><img src="assets/catalogo/presentes-personalizados/dia-dos-professores.webp" width="184" height="187" loading="lazy" decoding="async" alt="Modelo Dia dos Professores — Presentes Personalizados"><h4>Dia dos Professores</h4><p>Personalização e disponibilidade sob consulta.</p><a href="https://wa.me/5511944606772?text=Ol%C3%A1%21%20Gostaria%20de%20personalizar%20o%20modelo%20Dia%20dos%20Professores%20da%20cole%C3%A7%C3%A3o%20Presentes%20Personalizados." target="_blank" rel="noopener noreferrer" aria-label="Personalizar Dia dos Professores pelo WhatsApp">Personalizar no WhatsApp →</a></article>
+</div></div>
+</div></section>
 
 
     <!-- PRONTA ENTREGA -->
@@ -1122,4 +1065,5 @@
 
 </body>
 </html>
+
 

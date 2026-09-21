@@ -1,0 +1,254 @@
+[
+  {
+    "id": "ano-novo",
+    "title": "Ano Novo",
+    "collection": "momentos-especiais",
+    "image": "assets/catalogo/momentos-especiais/ano-novo.webp",
+    "width": 181,
+    "height": 184,
+    "source": "montagem fornecida pela proprietária; recorte na resolução original"
+  },
+  {
+    "id": "dia-de-reis",
+    "title": "Dia de Reis",
+    "collection": "momentos-especiais",
+    "image": "assets/catalogo/momentos-especiais/dia-de-reis.webp",
+    "width": 181,
+    "height": 185,
+    "source": "montagem fornecida pela proprietária; recorte na resolução original"
+  },
+  {
+    "id": "carnaval",
+    "title": "Carnaval",
+    "collection": "momentos-especiais",
+    "image": "assets/catalogo/momentos-especiais/carnaval.webp",
+    "width": 181,
+    "height": 186,
+    "source": "montagem fornecida pela proprietária; recorte na resolução original"
+  },
+  {
+    "id": "valentines-day",
+    "title": "Dia dos Namorados — Valentine’s",
+    "collection": "casais-amor",
+    "image": "assets/catalogo/casais-amor/valentines-day.webp",
+    "width": 184,
+    "height": 186,
+    "source": "montagem fornecida pela proprietária; recorte na resolução original"
+  },
+  {
+    "id": "dia-da-mulher",
+    "title": "Dia da Mulher",
+    "collection": "momentos-especiais",
+    "image": "assets/catalogo/momentos-especiais/dia-da-mulher.webp",
+    "width": 195,
+    "height": 186,
+    "source": "montagem fornecida pela proprietária; recorte na resolução original"
+  },
+  {
+    "id": "pascoa",
+    "title": "Páscoa",
+    "collection": "momentos-especiais",
+    "image": "assets/catalogo/momentos-especiais/pascoa.webp",
+    "width": 304,
+    "height": 187,
+    "source": "montagem fornecida pela proprietária; recorte na resolução original"
+  },
+  {
+    "id": "dia-do-cafe",
+    "title": "Dia do Café",
+    "collection": "presentes-personalizados",
+    "image": "assets/catalogo/presentes-personalizados/dia-do-cafe.webp",
+    "width": 207,
+    "height": 187,
+    "source": "montagem fornecida pela proprietária; recorte na resolução original"
+  },
+  {
+    "id": "sao-jorge",
+    "title": "São Jorge",
+    "collection": "momentos-especiais",
+    "image": "assets/catalogo/momentos-especiais/sao-jorge.webp",
+    "width": 196,
+    "height": 192,
+    "source": "montagem fornecida pela proprietária; recorte na resolução original"
+  },
+  {
+    "id": "dia-das-maes",
+    "title": "Dia das Mães",
+    "collection": "amor-de-mae",
+    "image": "assets/catalogo/amor-de-mae/dia-das-maes.webp",
+    "width": 198,
+    "height": 191,
+    "source": "montagem fornecida pela proprietária; recorte na resolução original"
+  },
+  {
+    "id": "nossa-senhora-de-fatima",
+    "title": "Nossa Senhora de Fátima",
+    "collection": "momentos-especiais",
+    "image": "assets/catalogo/momentos-especiais/nossa-senhora-de-fatima.webp",
+    "width": 197,
+    "height": 192,
+    "source": "montagem fornecida pela proprietária; recorte na resolução original"
+  },
+  {
+    "id": "santa-rita-de-cassia",
+    "title": "Santa Rita de Cássia",
+    "collection": "momentos-especiais",
+    "image": "assets/catalogo/momentos-especiais/santa-rita-de-cassia.webp",
+    "width": 195,
+    "height": 191,
+    "source": "montagem fornecida pela proprietária; recorte na resolução original"
+  },
+  {
+    "id": "festa-junina",
+    "title": "Festa Junina",
+    "collection": "momentos-especiais",
+    "image": "assets/catalogo/momentos-especiais/festa-junina.webp",
+    "width": 196,
+    "height": 192,
+    "source": "montagem fornecida pela proprietária; recorte na resolução original"
+  },
+  {
+    "id": "dia-dos-namorados",
+    "title": "Dia dos Namorados — 12 de junho",
+    "collection": "casais-amor",
+    "image": "assets/catalogo/casais-amor/dia-dos-namorados.webp",
+    "width": 245,
+    "height": 191,
+    "source": "montagem fornecida pela proprietária; recorte na resolução original"
+  },
+  {
+    "id": "dia-do-amigo",
+    "title": "Dia do Amigo",
+    "collection": "amor-pet",
+    "image": "assets/catalogo/amor-pet/dia-do-amigo.webp",
+    "width": 199,
+    "height": 191,
+    "source": "montagem fornecida pela proprietária; recorte na resolução original"
+  },
+  {
+    "id": "dia-dos-avos",
+    "title": "Dia dos Avós",
+    "collection": "familia",
+    "image": "assets/catalogo/familia/dia-dos-avos.webp",
+    "width": 193,
+    "height": 181,
+    "source": "montagem fornecida pela proprietária; recorte na resolução original"
+  },
+  {
+    "id": "dia-dos-pais",
+    "title": "Dia dos Pais",
+    "collection": "familia",
+    "image": "assets/catalogo/familia/dia-dos-pais.webp",
+    "width": 199,
+    "height": 181,
+    "source": "montagem fornecida pela proprietária; recorte na resolução original"
+  },
+  {
+    "id": "dia-do-padre",
+    "title": "Dia do Padre",
+    "collection": "momentos-especiais",
+    "image": "assets/catalogo/momentos-especiais/dia-do-padre.webp",
+    "width": 196,
+    "height": 183,
+    "source": "montagem fornecida pela proprietária; recorte na resolução original"
+  },
+  {
+    "id": "dia-do-administrador",
+    "title": "Dia do Administrador",
+    "collection": "presentes-personalizados",
+    "image": "assets/catalogo/presentes-personalizados/dia-do-administrador.webp",
+    "width": 194,
+    "height": 183,
+    "source": "montagem fornecida pela proprietária; recorte na resolução original"
+  },
+  {
+    "id": "dia-da-arvore",
+    "title": "Dia da Árvore",
+    "collection": "momentos-especiais",
+    "image": "assets/catalogo/momentos-especiais/dia-da-arvore.webp",
+    "width": 206,
+    "height": 183,
+    "source": "montagem fornecida pela proprietária; recorte na resolução original"
+  },
+  {
+    "id": "dia-da-secretaria",
+    "title": "Dia da Secretária",
+    "collection": "presentes-personalizados",
+    "image": "assets/catalogo/presentes-personalizados/dia-da-secretaria.webp",
+    "width": 224,
+    "height": 184,
+    "source": "montagem fornecida pela proprietária; recorte na resolução original"
+  },
+  {
+    "id": "sao-francisco-de-assis",
+    "title": "São Francisco de Assis",
+    "collection": "momentos-especiais",
+    "image": "assets/catalogo/momentos-especiais/sao-francisco-de-assis.webp",
+    "width": 206,
+    "height": 182,
+    "source": "montagem fornecida pela proprietária; recorte na resolução original"
+  },
+  {
+    "id": "dia-das-criancas",
+    "title": "Dia das Crianças",
+    "collection": "familia",
+    "image": "assets/catalogo/familia/dia-das-criancas.webp",
+    "width": 194,
+    "height": 188,
+    "source": "montagem fornecida pela proprietária; recorte na resolução original"
+  },
+  {
+    "id": "nossa-senhora-aparecida",
+    "title": "Nossa Senhora Aparecida",
+    "collection": "momentos-especiais",
+    "image": "assets/catalogo/momentos-especiais/nossa-senhora-aparecida.webp",
+    "width": 214,
+    "height": 187,
+    "source": "montagem fornecida pela proprietária; recorte na resolução original"
+  },
+  {
+    "id": "dia-dos-professores",
+    "title": "Dia dos Professores",
+    "collection": "presentes-personalizados",
+    "image": "assets/catalogo/presentes-personalizados/dia-dos-professores.webp",
+    "width": 184,
+    "height": 187,
+    "source": "montagem fornecida pela proprietária; recorte na resolução original"
+  },
+  {
+    "id": "halloween",
+    "title": "Halloween",
+    "collection": "momentos-especiais",
+    "image": "assets/catalogo/momentos-especiais/halloween.webp",
+    "width": 205,
+    "height": 189,
+    "source": "montagem fornecida pela proprietária; recorte na resolução original"
+  },
+  {
+    "id": "finados",
+    "title": "Finados — In memoriam",
+    "collection": "memorias-homenagens",
+    "image": "assets/catalogo/memorias-homenagens/finados.webp",
+    "width": 198,
+    "height": 190,
+    "source": "montagem fornecida pela proprietária; recorte na resolução original"
+  },
+  {
+    "id": "natal",
+    "title": "Natal",
+    "collection": "momentos-especiais",
+    "image": "assets/catalogo/momentos-especiais/natal.webp",
+    "width": 219,
+    "height": 189,
+    "source": "montagem fornecida pela proprietária; recorte na resolução original"
+  },
+  {
+    "id": "meu-pet",
+    "title": "Meu Pet",
+    "collection": "amor-pet",
+    "image": "assets/catalogo/amor-pet/meu-pet.webp",
+    "width": 200,
+    "height": 191,
+    "source": "montagem fornecida pela proprietária; recorte na resolução original"
+  }
+]
