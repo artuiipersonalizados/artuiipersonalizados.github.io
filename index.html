@@ -36,6 +36,10 @@
       --branco: #ffffff;
     }
 
+    .logo-oficial { width: 88px; height: 88px; object-fit: contain; flex-shrink: 0; border-radius: 50%; }
+    .logo-historia { width: 192px; height: 192px; object-fit: contain; border-radius: 50%; margin-bottom: 18px; }
+    @media (max-width: 600px) { .logo-oficial { width: 64px; height: 64px; } }
+
     /* TOPO */
     .topo {
       background: var(--preto);
@@ -639,7 +643,7 @@
     <div class="menu">
 
       <a href="#inicio" class="logo">
-        <div class="logo-circulo">∞</div>
+        <img class="logo-oficial" src="assets/brand/art-uiii-logo-192.webp" srcset="assets/brand/art-uiii-logo-192.webp 192w, assets/brand/art-uiii-logo-384.webp 384w" sizes="(max-width: 600px) 64px, 88px" width="88" height="88" alt="Logo oficial Art Uiii Personalizados">
 
         <div class="logo-texto">
           <div class="logo-nome">Art Uiii</div>
@@ -1031,7 +1035,7 @@
 
             <div>
 
-              <div class="infinito">∞</div>
+              <img class="logo-historia" src="assets/brand/art-uiii-logo-384.webp" width="192" height="192" loading="lazy" alt="Art Uiii Personalizados">
 
               <h3>
                 ART UIII
@@ -1118,3 +1122,4 @@
 
 </body>
 </html>
+
